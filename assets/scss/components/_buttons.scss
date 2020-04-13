@@ -1,0 +1,46 @@
+.nav__button {
+background-color: $BallBlue;
+border-color: $BallBlue;
+text-align: center;
+color: $White;
+border-radius: 0;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px; 
+}
+
+.nav__button:hover{
+  background-color: $MiddleBlue;
+  border-color: $MiddleBlue;
+  color: $White;
+}
+
+.nav__button:focus{
+  background-color: $SilverChalice;
+  border-color: $SilverChalice;
+  color: $White;
+}
+
+.section__button {
+  background-color: $BallBlue;
+  border-color: $BallBlue;
+  text-align: center;
+  color: $White;
+  border-radius: 0;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%
+}
+
+.section__button:hover{
+  background-color: $MiddleBlue;
+  border-color: $MiddleBlue;
+  color: $White;
+}
+
+.section__button:focus{
+  background-color: $SilverChalice;
+  border-color: $SilverChalice;
+  color: $White;
+}

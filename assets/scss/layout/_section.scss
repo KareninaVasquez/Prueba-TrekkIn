@@ -1,0 +1,29 @@
+.section__precios {
+  background-image: url(../img/bg-price.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  height: 800px;
+}
+
+.section__precios-small {
+  @media screen and (max-width: 768px)
+ {
+  height: 1100px;  
+   }
+}
+
+.section__card__padding {
+  padding-top: 2em;
+}
+
+.section__tittle__precios {
+  color: $White;
+  padding-top: 5.5em;
+}
+
+.section__card {
+ border-radius: 0px;
+ text-align: left;
+}
